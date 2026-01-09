@@ -41,6 +41,30 @@ h1
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* search section styling */
+.search-section input
+{
+    height:40px;
+    width:400px;
+    border:none;
+    border-radius:15px;
+    text-align: center;
+}
+
+#search-btn
+{
+    height:30px;
+    border: none;
+    border-radius:5px;
+    background-color: rgb(92, 85, 155);
+    color:azure;
+}
+
+/* hover effect on search button */
+#search-btn:hover
+{
+    border:1px solid white;
+}
 
 li{
     margin-top:20px;
@@ -55,5 +79,5 @@ label{
 li p{
     font-size:25px;
     font-weight: lighter;
-    margin-left:30px;
+    margin-left:50px;
 }
