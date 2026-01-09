@@ -1,0 +1,59 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+#app-body
+{
+    height:100vh;
+    width:100vw;
+    background-image:url("imgs/background.jpg");
+    background-size:cover;
+}
+
+/* dashboard styling */
+#content-body
+{
+    text-align: center;
+    height:700px;
+    background-color: transparent;
+    backdrop-filter:blur(3px);
+    padding-top:50px;
+    border:1px solid white;
+    border-radius:5px;
+}
+
+div{
+    align-items: center;
+}
+
+/* heading styling */
+h1
+{
+    font-size:50px;
+    text-shadow:5px 5px 3px gray;
+}
+
+#heading p
+{
+    font-size:18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+li{
+    margin-top:20px;
+    display:flex;
+    justify-content: center;
+}
+
+label{
+    font-size:25px;
+}
+
+li p{
+    font-size:25px;
+    font-weight: lighter;
+    margin-left:30px;
+}
