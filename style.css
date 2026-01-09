@@ -72,12 +72,15 @@ li{
     justify-content: center;
 }
 
-label{
-    font-size:25px;
-}
 
 li p{
     font-size:25px;
     font-weight: lighter;
     margin-left:50px;
+    text-shadow:2px 2px 3px white;
+}
+
+.labels{
+    font-size:25px;
+    font-weight: normal;
 }

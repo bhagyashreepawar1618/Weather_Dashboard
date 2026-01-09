@@ -15,35 +15,37 @@
                 <p>Check weather of any city</p>
             </div>
             <div class="search-section">
-                <input type="text" placeholder="Enter city name.." value="Pune">
-                <button id="search-btn">get Weather</button>
+                <input type="text" placeholder="Enter city name.." value="Pune" id="inpt">
+                <button id="search-btn">Get Weather</button>
             </div>
                 <div id="weather-result">
                     <ul>
                         <li>
-                            <label for="cityName">City Name</label>
-                            <p id="cityName">Pune</p>
+                            <p class="labels">City Name</p>
+                            <p class="output" id="cityName">Pune</p>
                         </li>
                         <li>
-                            <label for="Temperature">Temperature</label>
-                            <p id="Temperature">Hot</p>
+                            <p class="labels">Temperature</p>
+                            <p class="output" id="Temperature">Hot</p>
+                            <p class="ms-2">C</p>
                         </li>
                         <li>
-                            <label for="WeatherCondition">Weather Condition</label>
-                            <p id="WeatherCondition"></p>
+                            <p class="labels">Weather Condition</p>
+                            <p class="output" id="WeatherCondition">..</p>
                         </li>
                         <li>
-                            <label for="humidity">Humidity</label>
-                            <p id="humidity">..</p>
+                            <p class="labels">Humidity</p>
+                            <p class="output" id="humidity">..</p>
                         </li>
                         <li>
-                            <label for="windspeed">Windspeed</label>
-                            <p id="windspeed">..</p>
+                            <p class="labels">Windspeed</p>
+                            <p class="output" id="windspeed">..</p>
+                            <p class="ms-1">m/s</p>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 </html>
